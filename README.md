@@ -1,6 +1,6 @@
 # Ticket Store
 
-This is a quick implementation of a reusable Django app built on Django REST Framework.  It demonstrates dynamic fields and
+This is a quick implementation of a reusable Django app built on Django REST Framework.  It demonstrates dynamic fields being returned by Django REST Framework serializers and implements a primitive event and ticket tracking system.
 
 ### Prerequisites
 
