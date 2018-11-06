@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  app:
+    build: ./ticketstore
+    volumes:
+      - "./ticketstore:/app"
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
